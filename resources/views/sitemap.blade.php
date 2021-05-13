@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://avita-india.com/</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/product/admiror</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/product/pura</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/product/cosmos/spec</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/product/liber12</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/product/liber-u-series</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/product/magus-lite-2in1-laptop</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/product/imago</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/product/modus</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/accessories/mouse</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/news</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/where-to-buy</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/support</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/blog</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/sales-enquiry</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/product/liber/spec</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/cap</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/aboutus</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/images/AVITA-Products-Brochure.pdf</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/where-to-buy?liber</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/contact_us</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/repair_tnc</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/tnc</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/product/admiror/spec</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/product/liber/support</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/product/pura/spec</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/product/magus-spec</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/product/imago/spec</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/avita-appoints-ingram-micro</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/ces-events-2020</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/Hong-Kong-tech-innovator-Nexstgo-returns-to-COMPUTEX-2019_final</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/AVITA-launches-stylish-ADMIROR-notebooks</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/ces-events</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/AVITA-breaks-down-the-Most-Creative-Career-Choices-students-make-today</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/ssd-storage-for-modern-laptops</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/why-millennials-are-choosing-cloud-storage-for-personal-computing</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/AVITA-Magus%E2%80%938-Wonderful-Benefits-of-a-2-in-1-Laptops</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/AVITAs-Guide-to-Buying-the-Perfect-Student-Laptop</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/What-are-the-benefits-of-smart-scale</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/Why-is-College-the-RIGHT-time-to-become-Creative</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/Avita-Liber-Technology-to-keep-YOU-high-on-Fashion</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://avita-india.com/Why-should-your-Personal-Laptop-be-Light-Weighted</loc>
+  <lastmod>2020-06-25T11:41:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
