@@ -62,16 +62,24 @@ class ProductsController extends Controller
                         break;
                     }
                 }
-				
+                if ( $slug == 'magus12-2in1-laptop' ) {
+                    if ( $country == 'sg' ) {
+                        return view('product.magus_sg', compact( 'product'));
+                    } elseif ( $country == 'id' ) {
+                        return view('product.magus_id', compact( 'product'));
+                    } else {
+                        return view('product.magus', compact( 'product'));
+                    }
+                }
        
-     if ( $slug == 'magus-lite' ){
+    //  if ( $slug == 'magus-lite' ){
 
-            switch ( $country ) {
-                case 'in':
-                    return view('product.magus-lite', compact( 'product'));
-                    break;
-            }
-        }
+    //         switch ( $country ) {
+    //             case 'in':
+    //                 return view('product.magus-lite', compact( 'product'));
+    //                 break;
+    //         }
+    //     }
 
     if ( $slug == 'liber-v' ){
 

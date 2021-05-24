@@ -99,7 +99,6 @@
                             <a href="https://www.flipkart.com/search?q=avita+laptops&otracker=search&otracker1=search&marketplace=FLIPKART&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DAvita" target="_blank" class="my-1">Flipkart</a>
                             <a href="https://www.amazon.in/s?k=avita&ref=nb_sb_noss_2" target="_blank" class="my-1">Amazon</a>
                             <a href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2&page=1&brand=510306" target="_blank" class="my-1">Paytm Mall</a>
-                            <a href="https://www.reliancedigital.in/search?q=avita:relevance" target="_blank" class="my-1">Reliance Digital</a>
                             <a href="https://www.tatacliq.com/search/?searchCategory=all&text=avita" target="_blank" class="my-1">TATA Cliq</a>
                         </div>
                     </div>

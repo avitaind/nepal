@@ -106,9 +106,7 @@
                             <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.amazon.in/s?k=avita&ref=nb_sb_noss_2">Amazon</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.reliancedigital.in/search?q=avita:relevance">Reliance Digital</a>
-                            </li>
+ 
                             <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2"  target="_blank" href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2&page=1&brand=510306">Paytm Mall</a>
                             </li>
