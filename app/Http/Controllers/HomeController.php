@@ -163,8 +163,7 @@ class HomeController extends Controller
 
         // Determine which contact_us page by region
 
-        $country_code = session('country', 'in');
-
+        $country_code = session('country', 'np');
         $view_name = 'pages.contact-us-'.$country_code;
 
         if ( !\View::exists($view_name) ) {

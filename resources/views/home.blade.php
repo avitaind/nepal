@@ -90,7 +90,7 @@
            
     </form>
       
-    <p class="download-brochure" ><a href="/images/Product-Brochure.pdf" target="_blank" download="Product-Brochure.pdf"><button class="btn btn-primary btn-lg " type="button">{{ __('messages.brochuer') }}</button></a></p> 
+    <p class="download-brochure" ><a href="#" target="_blank" download="Product-Brochure.pdf"><button class="btn btn-primary btn-lg " type="button">{{ __('messages.brochuer') }}</button></a></p> 
 
     </section>
 

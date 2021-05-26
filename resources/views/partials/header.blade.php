@@ -86,10 +86,10 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/where-to-buy">{{ __('messages.where_to_buy') }}</a>
+                    <a class="nav-link" >{{ __('messages.where_to_buy') }}</a>
                 </li>
                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('support') }}">{{ __('messages.support') }}</a> 
+                        <a class="nav-link">{{ __('messages.support') }}</a> 
                 </li>
 
                 <li class="nav-item has-dropdown">
@@ -98,20 +98,20 @@
                     <div class="dropdown">
                         <ul class="list-unstyled">
                         <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2" target="_blank" href="https://in.nexstmall.com/">NEXSTMALL</a>
+                                <a class="nav-link px-md-4 py-2" target="_blank" >NEXSTMALL</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2" target="_blank" href="https://www.flipkart.com/search?q=avita+laptops&otracker=search&otracker1=search&marketplace=FLIPKART&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DAvita">Flipkart</a>
+                                <a class="nav-link px-md-4 py-2" target="_blank" >Flipkart</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.amazon.in/s?k=avita&ref=nb_sb_noss_2">Amazon</a>
+                                <a class="nav-link px-md-4 py-2"  target="_blank" >Amazon</a>
                             </li>
  
                             <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2"  target="_blank" href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2&page=1&brand=510306">Paytm Mall</a>
+                                <a class="nav-link px-md-4 py-2"  target="_blank" >Paytm Mall</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.tatacliq.com/search/?searchCategory=all&text=avita">TATA Cliq</a>
+                                <a class="nav-link px-md-4 py-2"  target="_blank" >TATA Cliq</a>
                             </li>
                        </ul>
                     </div>
@@ -120,7 +120,7 @@
                     <a class="nav-link" href="/blog">{{ __('messages.blog') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/sales-enquiry">{{ __('messages.sales enquiry') }}</a>
+                    <a class="nav-link" >{{ __('messages.sales enquiry') }}</a>
                 </li>
             
                 <!---- Language Dropdown --------->

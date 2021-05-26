@@ -11,16 +11,16 @@ function bytesToHuman($bytes, $precision = 2)
     return round($bytes, $precision) . $units[$i];
 }
 
-function enabled_countries(  ) {
+function enabled_countries() {
 
-     return ['in'];
+     return ['np'];
      
 }
 
 function supported_language( $country ) {
 
     switch ( $country ) {
-        case 'in':
+        case 'np':
             return ['en'];
 
 
@@ -33,23 +33,21 @@ function supported_language( $country ) {
 function facebookLinkForCountry( $country ) {
 
     switch ( $country ) {
-        case 'in':  return '#';
-        default:    return "";
+        default:    return "https://www.facebook.com/AVITA-Nepal-106156631660214";
     }
 }
 
 function instagramLinkForCountry( $country ) {
 
     switch ( $country ) {
-        case 'in':  return '#';
-        default:    return "";
+        default:    return "https://www.instagram.com/avitanepal/";
     }
 }
 
 function twitterLinkForCountry( $country ) {
 
     switch ( $country ) {
-        case 'in':  return '#';
+        case 'np':  return '#';
         default:    return "";
     }
 }
@@ -57,8 +55,9 @@ function twitterLinkForCountry( $country ) {
 function whatsappLinkForCountry( $country ) {
 
     switch ( $country ) {
-        case 'in':  return '#';
-             default:    return "";
+            //  default:    return "https://api.whatsapp.com/send?phone=#";
+            default:    return "#";
+
     }
 }
 
@@ -66,8 +65,7 @@ function whatsappLinkForCountry( $country ) {
 function youtubeLinkForCountry( $country ) {
 
     switch ( $country ) {
-        case 'in':  return '#';
-             default:    return "";
+             default:    return "https://www.youtube.com/channel/UCBxwd2BXZ0zHrU-l9RkDOwg";
     }
 }
 
@@ -75,7 +73,7 @@ function youtubeLinkForCountry( $country ) {
 function linkedinLinkForCountry( $country ) {
 
     switch ( $country ) {
-        case 'in':  return '#';
+        case 'np':  return '#';
              default:    return "";
     }
 }
@@ -86,7 +84,7 @@ function metaKeywordByCountryAndLanguage( $country, $language ) {
     $keyword = "AVITA LIBER 12.5\", Core i5 Intel CPU, Windows Hello, fingerprint, USB 3.0 ports, USB Type-C, USB-C";
 
     switch ( $country ) {
-        case 'in':
+        case 'np':
             if ( $language == 'en') {
                 $keyword = "AVITA LIBER 12.5\", Core i5 Intel CPU, Windows Hello, fingerprint, USB 3.0 ports, USB Type-C, USB-C";
             } else {
@@ -157,7 +155,7 @@ function googleAnalyticCode( $country ) {
 
     switch ( $country ) {
 
-        case 'in' : return "UA-133345635-5";
+        case 'np' : return "UA-133345635-5";
 
     }
     return 'UA-133345635-5'; 
