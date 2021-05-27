@@ -94,7 +94,8 @@
                 <div class="col-12 col-md-3 py-3 py-md-0 text-left">
                     <div class="d-flex justify-content-between hidden-xs-down">
                         <div class="d-flex flex-column mr-3 ml-md-0 small-lsm-little">
-                            <p class="heading">{{ __('messages.available_on') }}</p>
+                            <!-- <p class="heading">{{ __('messages.available_on') }}</p> -->
+                            <p class="heading"></p>
 
                             <a target="_blank" class="my-1"></a>
                             <a target="_blank" class="my-1"></a>
