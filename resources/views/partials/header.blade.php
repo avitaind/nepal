@@ -97,7 +97,7 @@
                     <a class="nav-link px-md-4 py-2"><label for="header_buy_online" class="d-block mb-0">{{ __('messages.buy_online') }}</label></a>
                     <div class="dropdown">
                         <ul class="list-unstyled">
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2" target="_blank" >NEXSTMALL</a>
                             </li>
                             <li class="nav-item">
@@ -112,7 +112,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2"  target="_blank" >TATA Cliq</a>
-                            </li>
+                            </li> -->
                        </ul>
                     </div>
                 </li>
