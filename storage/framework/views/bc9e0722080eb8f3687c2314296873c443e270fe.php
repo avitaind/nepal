@@ -8,13 +8,13 @@
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/avita-liber-v-web-new-v3.jpg')"></div>
+                                 style="background-image: url('/images/banner/avita-liber-v-web-new-v4.jpg')"></div>
                         <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/avita-liber-v-web-new-v3.jpg')"></div>
+                                 style="background-image: url('/images/banner/avita-liber-v-web-new-v4.jpg')"></div>
                         <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/avita-liber-v-mob-new-v3.jpg')"></div>
+                             style="background-image: url('/images/banner/avita-liber-v-mob-new-v4.jpg')"></div>
                     </div>
                     </a>
                 </div>
@@ -45,13 +45,13 @@
                 <div class="banner-block responsive-item">
                     <?php if( App::isLocale('en') ): ?>
                         <div class="banner-bg hidden-sm-down"
-                             style="background-image: url('/images/banner/MAGUS-WEB-BANNER-NEW.png')"></div>
+                             style="background-image: url('/images/banner/MAGUS-WEB-BANNER-v1.jpg')"></div>
                     <?php else: ?>
                         <div class="banner-bg hidden-sm-down"
-                             style="background-image: url('/images/banner/MAGUS-WEB-BANNER-NEW.png')"></div>
+                             style="background-image: url('/images/banner/MAGUS-WEB-BANNER-v1.jpg')"></div>
                     <?php endif; ?>
                     <div class="banner-bg hidden-md-up"
-                         style="background-image: url('/images/banner/MAGUS-MOB-BANNER-NEW.png')"></div>
+                         style="background-image: url('/images/banner/MAGUS-MOB-BANNER-v1.jpg')"></div>
                 </div>
                 </a>
             </div>

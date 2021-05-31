@@ -13,7 +13,7 @@
 
         <div class="product-nav-collapse">
             <ul class="nav-product d-flex list-unstyled flex-column justify-content-center text-center flex-sm-row justify-content-sm-end my-2">
-                <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.overview', 'magus-lite-2in1-laptop')); ?>"><?php echo app('translator')->getFromJson('magus.name'); ?></a></li>
+                <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.overview', 'magus12-2in1-laptop')); ?>"><?php echo app('translator')->getFromJson('magus.name'); ?></a></li>
                 <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.overview', 'magus-spec')); ?>"><?php echo app('translator')->getFromJson('site.productnav_spec'); ?></a></li>
                 <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.support', 'liber')); ?>"><?php echo app('translator')->getFromJson('site.productnav_support'); ?></a></li>
             </ul>

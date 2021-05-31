@@ -13,8 +13,8 @@
         <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/avita-liber-v-web-new-v1.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/avita-liber-v-mob-new-v1.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/avita-liber-v-web-new-v4.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/avita-liber-v-mob-new-v4.jpg')"></div>
                     <div class="banner-info">
                         <div class="btn-group mt-3">
                             {{--<img class="mx-auto" src="/images/liber-v/brand.png">--}}
