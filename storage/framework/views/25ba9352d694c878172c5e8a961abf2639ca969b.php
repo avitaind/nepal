@@ -86,7 +86,7 @@
                                 </div>
                             </form>
                               <br/>
-                        <img src="/images/contact.png" style="width:320px;">
+                        
                             </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
                  
                  <div>
                      <i class="fa fa-map icon"></i>
-                     Customer Service Hotline
+                     Neoteric Nepal PVT LTD F1 Service UNITY BUILDING Opposite - D.A.V SCHOOL Bhanimandal, Lalitpur-3 Service Manager Mr. Amit Kumar Jan
                  </div>
 
                   <div>
@@ -153,12 +153,12 @@
 
                  <div>
                      <i class="fa fa-phone icon"></i>
-                        1800-103-9635
+                     9801200163
                  </div>
 
                  <div>
                      <i class="fa fa-envelope icon"></i>
-                      india_support@avita.com
+                     np.support@nexstgo.com
                  </div>
                  
                     </div>
@@ -166,15 +166,7 @@
 
                 </div>
                 
-                   <div class="form-group">
-                        
-                        <div class="input-group">
-                    
-                        <input type="text" class="form-control" id="search" name="search" placeholder="Type your City / State or Postal Code Here"> </input> 
-                        <div class="input-group-addon overlay-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
-                        
-                        </div>
-                    </div>
+                   
                  
                 
         

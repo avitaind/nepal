@@ -47,7 +47,7 @@
                             <a class="my-1"><?php echo e(__('messages.where_to_buy')); ?></a>
 
 
-                            <!-- <a href="/contact-us" class="my-1"><?php echo e(__('messages.contact_avita')); ?></a> -->
+                            
                             <a class="my-1"><?php echo e(__('messages.contact_avita')); ?></a>
 
 

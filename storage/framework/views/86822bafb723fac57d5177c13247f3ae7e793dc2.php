@@ -46,20 +46,7 @@
                             </li>
 
 
-                            <li class="nav-item has-dropdown">
-                                <input id="header_product_device" type="checkbox" hidden="">
-                                <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0"><?php echo e(__('messages.smart device')); ?></label></a>
-                                <div class="dropdown">
-                                    <ul class="list-unstyled">
-                                        <!-- <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['imago'])); ?>"><?php echo app('translator')->getFromJson('site.imago_series'); ?></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['modus'])); ?>"><?php echo app('translator')->getFromJson('site.modus_scale'); ?></a>
-                                        </li> -->
-                                    </ul>
-                                </div>
-                            </li>
+                            
 
 
                             <li class="nav-item has-dropdown">
@@ -89,38 +76,16 @@
                     <a class="nav-link" ><?php echo e(__('messages.where_to_buy')); ?></a>
                 </li>
                    <li class="nav-item">
-                        <a class="nav-link"><?php echo e(__('messages.support')); ?></a> 
+                        <a class="nav-link" href="<?php echo e(route('support')); ?>"><?php echo e(__('messages.support')); ?></a> 
                 </li>
 
-                <li class="nav-item has-dropdown">
-                    <input id="header_buy_online" type="checkbox" hidden="">
-                    <a class="nav-link px-md-4 py-2"><label for="header_buy_online" class="d-block mb-0"><?php echo e(__('messages.buy_online')); ?></label></a>
-                    <div class="dropdown">
-                        <ul class="list-unstyled">
-                        <!-- <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2" target="_blank" >NEXSTMALL</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2" target="_blank" >Flipkart</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2"  target="_blank" >Amazon</a>
-                            </li>
- 
-                            <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2"  target="_blank" >Paytm Mall</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2"  target="_blank" >TATA Cliq</a>
-                            </li> -->
-                       </ul>
-                    </div>
-                </li>
+                
+
                 <li class="nav-item">
                     <a class="nav-link" href="/blog"><?php echo e(__('messages.blog')); ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" ><?php echo e(__('messages.sales enquiry')); ?></a>
+                    <a class="nav-link" href="/sales-enquiry"><?php echo e(__('messages.sales enquiry')); ?></a>
                 </li>
             
                 <!---- Language Dropdown --------->

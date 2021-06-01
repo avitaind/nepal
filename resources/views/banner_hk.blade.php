@@ -20,7 +20,7 @@
                 </div>
             </div>
         
-         <div class="carousel-item">
+         {{-- <div class="carousel-item">
                 <div class="responsive-block">
                 <a href="{{ route('product.overview', ['essential']) }}">
                     <div class="banner-block responsive-item">
@@ -36,7 +36,7 @@
                     </div>
                     </a>
                 </div>
-            </div>
+            </div> --}}
                  
       
         <div class="carousel-item">
@@ -62,7 +62,7 @@
         <ol class="carousel-indicators">
           <li data-target="#home_banner" data-slide-to="0" class="active"></li>
           <li data-target="#home_banner" data-slide-to="1"></li>
-          <li data-target="#home_banner" data-slide-to="2"></li>
+          {{-- <li data-target="#home_banner" data-slide-to="2"></li> --}}
        
 
         </ol>

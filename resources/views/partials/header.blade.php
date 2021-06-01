@@ -46,20 +46,20 @@
                             </li>
 
 
-                            <li class="nav-item has-dropdown">
+                            {{-- <li class="nav-item has-dropdown">
                                 <input id="header_product_device" type="checkbox" hidden="">
                                 <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0">{{ __('messages.smart device') }}</label></a>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
-                                        <!-- <li class="nav-item">
+                                        <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['imago']) }}">@lang('site.imago_series')</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['modus']) }}">@lang('site.modus_scale')</a>
-                                        </li> -->
+                                        </li>
                                     </ul>
                                 </div>
-                            </li>
+                            </li> --}}
 
 
                             <li class="nav-item has-dropdown">
@@ -89,15 +89,15 @@
                     <a class="nav-link" >{{ __('messages.where_to_buy') }}</a>
                 </li>
                    <li class="nav-item">
-                        <a class="nav-link">{{ __('messages.support') }}</a> 
+                        <a class="nav-link" href="{{ route('support') }}">{{ __('messages.support') }}</a> 
                 </li>
 
-                <li class="nav-item has-dropdown">
+                {{-- <li class="nav-item has-dropdown">
                     <input id="header_buy_online" type="checkbox" hidden="">
                     <a class="nav-link px-md-4 py-2"><label for="header_buy_online" class="d-block mb-0">{{ __('messages.buy_online') }}</label></a>
                     <div class="dropdown">
                         <ul class="list-unstyled">
-                        <!-- <li class="nav-item">
+                            <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2" target="_blank" >NEXSTMALL</a>
                             </li>
                             <li class="nav-item">
@@ -112,15 +112,16 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2"  target="_blank" >TATA Cliq</a>
-                            </li> -->
+                            </li>
                        </ul>
                     </div>
-                </li>
+                </li> --}}
+
                 <li class="nav-item">
                     <a class="nav-link" href="/blog">{{ __('messages.blog') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" >{{ __('messages.sales enquiry') }}</a>
+                    <a class="nav-link" href="/sales-enquiry">{{ __('messages.sales enquiry') }}</a>
                 </li>
             
                 <!---- Language Dropdown --------->

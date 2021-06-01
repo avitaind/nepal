@@ -35,7 +35,7 @@ class SalesEnquiryController extends Controller
             ), function($message) use ($request)
         {
            $message->from($request->get('email'));
-           $message->to('contact@avita-india.com', 'Admin')->subject('Sales Enquiry Received on AVITA INDIA');
+           $message->to('npsales@nexstgo.com', 'Admin')->subject('Sales Enquiry Received on AVITA NEPAL');
         });
         return redirect()->back()->with('message', 'Thank you for your enquiry you will receive a mail shortly!');
 
