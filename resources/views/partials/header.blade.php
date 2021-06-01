@@ -33,9 +33,9 @@
                                        </li>
                                  
                                    
-                                       <li class="nav-item">
+                                       {{-- <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'magus-lite-2in1-laptop') }}">@lang('magus.name')</a>
-                                            </li>
+                                            </li> --}}
                                         
                                           <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'essential') }}">@lang('site.essential_name')</a>
