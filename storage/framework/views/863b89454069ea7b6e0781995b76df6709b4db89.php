@@ -19,7 +19,8 @@
     </div>
 <br/>
 <div>
-<strong>Toll Free</strong>: 1800-103-9635, <strong>Whatsapp</strong>: <a href="https://api.whatsapp.com/send?phone=917827845054" target="_blank" rel="noopener noreferrer">+91-7827845054</a></div>
+
+<strong>Email</strong>: npsales@nexstgo.com </div>
 <div class="container"  style="text-align: center; padding:5%;">
 
     <?php if(session()->has('message')): ?>
