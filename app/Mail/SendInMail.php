@@ -33,7 +33,7 @@ class SendInMail {
 	
 	function getUser(){
 		
-		$data = array( "email" => "contact@avita-india.com" );
+		$data = array( "email" => "np.support@nexstgo.com" );
 
 		echo "<pre>";
 		print_r($this->mailin->get_user($data));
@@ -44,9 +44,9 @@ class SendInMail {
 	function sendMail($userId){		
 
 			$data = array( "to" => array($userId=>"Subscriber"),
-			"from" => array("contact@avita-india.com","AVITA India"),
-			"replyto" => array("contact@avita-india.com","AVITA India"),
-			"subject" => "AVITA India | Email Subscription",
+			"from" => array("np.support@nexstgo.com","AVITA Nepal"),
+			"replyto" => array("np.support@nexstgo.com","AVITA Nepal"),
+			"subject" => "AVITA Nepal | Email Subscription",
 			"text" => "Thank you for subscribing us!",
 			"html" => "<h1>Dear Subscriber</h1><br/>
 					   Thank you for subscribing with us<br/>
