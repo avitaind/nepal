@@ -105,7 +105,7 @@
             clearTimeout( imageTimer );
             imageTimer = setTimeout( function( ){
                 $('#home_banner').carousel('next');
-            }, 6000 );
+            }, 15000 );
 
         }).trigger('init');
     </script>
