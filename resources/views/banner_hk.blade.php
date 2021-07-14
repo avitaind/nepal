@@ -5,7 +5,7 @@
         <div class="carousel-item active">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item  d-flex align-items-center">
-                        <video class="leadin-video video-bgv1" muted autoplay playsinline>
+                        <video class="leadin-video video-bgv1" autoplay playsinline>
                             <source src="/videos/nepal_launch_video.mp4" type="video/mp4">
                         </video>
                   
