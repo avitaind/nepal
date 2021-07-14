@@ -8,7 +8,6 @@
                         <video class="leadin-video video-bgv1" autoplay playsinline>
                             <source src="/videos/nepal_launch_video.mp4" type="video/mp4">
                         </video>
-                  
                     </div>
                 </div>
             </div>
