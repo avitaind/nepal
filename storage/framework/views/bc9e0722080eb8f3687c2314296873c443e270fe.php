@@ -5,10 +5,9 @@
         <div class="carousel-item active">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item  d-flex align-items-center">
-                        <video class="leadin-video video-bgv1" autoplay playsinline>
+                        <video class="leadin-video video-bgv1"  autoplay playsinline>
                             <source src="/videos/nepal_launch_video.mp4" type="video/mp4">
                         </video>
-                  
                     </div>
                 </div>
             </div>
@@ -58,7 +57,7 @@
           <li data-target="#home_banner" data-slide-to="0" class="active"></li>
           <li data-target="#home_banner" data-slide-to="1"></li>
           <li data-target="#home_banner" data-slide-to="2"></li> 
-          <li data-target="#home_banner" data-slide-to="3"></li> 
+          <li data-target="#home_banner" data-slide-to="3"></li>
 
 
         </ol>
