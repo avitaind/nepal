@@ -1,7 +1,7 @@
 <section class="top-nav-padding homepage-banner">
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
-        
+<!--         
         <div class="carousel-item active">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item  d-flex align-items-center">
@@ -10,8 +10,24 @@
                         </video>
                     </div>
                 </div>
+            </div> -->
+            <div class="carousel-item active">
+                <div class="responsive-block">
+                <!-- <a href="{{ route('product.overview', ['liber-v']) }}"> -->
+                    <div class="banner-block responsive-item">
+                        @if( App::isLocale('en') )
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/Avita_Essential_teaser_web.jpg')"></div>
+                        @else
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/Avita_Essential_teaser_web.jpg')"></div>
+                        @endif
+                        <div class="banner-bg hidden-md-up"
+                             style="background-image: url('/images/banner/Avita_Essential_teaser_mobile.jpg')"></div>
+                    </div>
+                    <!-- </a> -->
+                </div>
             </div>
-
         <div class="carousel-item">
                 <div class="responsive-block">
                 <a href="{{ route('product.overview', ['liber-v']) }}">
@@ -104,7 +120,7 @@
             clearTimeout( imageTimer );
             imageTimer = setTimeout( function( ){
                 $('#home_banner').carousel('next');
-            }, 15000 );
+            }, 6000 );
 
         }).trigger('init');
     </script>
