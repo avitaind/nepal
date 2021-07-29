@@ -13,19 +13,19 @@
             </div> -->
             <div class="carousel-item active">
                 <div class="responsive-block">
-                <a href="<?php echo e(route('product.overview', ['liber-v'])); ?>">
+                 <a href="<?php echo e(route('product.overview', ['essential'])); ?>"> 
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/Avita_Essential_teaser_web.jpg')"></div>
+                                 style="background-image: url('/images/banner/avita-essential-web-new.jpg')"></div>
                         <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/Avita_Essential_teaser_web.jpg')"></div>
+                                 style="background-image: url('/images/banner/avita-essential-web-new.jpg')"></div>
                         <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/Avita_Essential_teaser_mobile.jpg')"></div>
+                             style="background-image: url('/images/banner/avita-essential-mob-new.jpg')"></div>
                     </div>
-                    </a>
+                    <!-- </a> -->
                 </div>
             </div>
         <div class="carousel-item">
@@ -34,13 +34,13 @@
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/avita-liber-v-web-new-v4.jpg')"></div>
+                                 style="background-image: url('/images/banner/avita-liber-v-web-new-v3.jpg')"></div>
                         <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/avita-liber-v-web-new-v4.jpg')"></div>
+                                 style="background-image: url('/images/banner/avita-liber-v-web-new-v3.jpg')"></div>
                         <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/avita-liber-v-mob-new-v4.jpg')"></div>
+                             style="background-image: url('/images/banner/avita-liber-v-mob-new-v3.jpg')"></div>
                     </div>
                     </a>
                 </div>
@@ -55,13 +55,13 @@
                 <div class="banner-block responsive-item">
                     <?php if( App::isLocale('en') ): ?>
                         <div class="banner-bg hidden-sm-down"
-                             style="background-image: url('/images/banner/MAGUS-WEB-BANNER-v1.jpg')"></div>
+                             style="background-image: url('/images/banner/magus_web.jpg')"></div>
                     <?php else: ?>
                         <div class="banner-bg hidden-sm-down"
-                             style="background-image: url('/images/banner/MAGUS-WEB-BANNER-v1.jpg')"></div>
+                             style="background-image: url('/images/banner/magus_web.jpg')"></div>
                     <?php endif; ?>
                     <div class="banner-bg hidden-md-up"
-                         style="background-image: url('/images/banner/MAGUS-MOB-BANNER-v1.jpg')"></div>
+                         style="background-image: url('/images/banner/magus_mob.jpg')"></div>
                 </div>
                 </a>
             </div>
@@ -73,7 +73,7 @@
           <li data-target="#home_banner" data-slide-to="0" class="active"></li>
           <li data-target="#home_banner" data-slide-to="1"></li>
           <li data-target="#home_banner" data-slide-to="2"></li> 
-          <li data-target="#home_banner" data-slide-to="3"></li>
+          
 
 
         </ol>
@@ -104,7 +104,7 @@
             clearTimeout( imageTimer );
             imageTimer = setTimeout( function( ){
                 $('#home_banner').carousel('next');
-            }, 15000 );
+            }, 6000 );
 
         }).trigger('init');
     </script>
