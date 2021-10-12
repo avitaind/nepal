@@ -142,7 +142,7 @@
              <div class="alert alert-success">
                <div class="col-md-12">
                  
-                 <div>
+                 {{-- <div>
                      <i class="fa fa-map icon"></i>
                      Neoteric Nepal PVT LTD F1 Service UNITY BUILDING Opposite - D.A.V SCHOOL Bhanimandal, Lalitpur-3 Service Manager Mr. Amit Kumar Jan
                  </div>
@@ -160,6 +160,31 @@
                  <div>
                      <i class="fa fa-envelope icon"></i>
                      np.support@nexstgo.com
+                 </div> --}}
+
+                 <div>
+                    <i class="fa fa-user icon"></i>
+                    Service Manager: Amit Jain
+                </div>
+
+                 <div>
+                     <i class="fa fa-map icon"></i>
+                     Neoteric Nepal Pvt. Ltd., Neo Complex, Bhanimandal, Lalitpur-03
+                 </div>
+
+                  <div>
+                     <i class="fa fa-clock-o icon"></i>
+                     09:30AM-6:30PM (Mon to Sat, Excluding 3rd Saturday), close on Sunday and Public Holidays
+                 </div>
+
+                 <div>
+                     <i class="fa fa-phone icon"></i>
+                     9801200163
+                 </div>
+
+                 <div>
+                     <i class="fa fa-envelope icon"></i>
+                     amit@neoteric.com.np
                  </div>
                  
                     </div>
