@@ -174,7 +174,7 @@
 
                   <div>
                      <i class="fa fa-clock-o icon"></i>
-                     09:30AM-6:30PM (Mon to Sat, Excluding 3rd Saturday), close on Sunday and Public Holidays
+                     10:00AM-06:00PM (Mon to Sat, Excluding 3rd Saturday), close on Sunday and Public Holidays
                  </div>
 
                  <div>
