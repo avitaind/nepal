@@ -21,9 +21,19 @@
                             <img class="hidden-lg-up " src="images/background/aboutus-min.png"/>
                         </div>
                         <h1 class="text-left mt-4 mb-3 font-weight-light">@lang('site.aboutus_about')</h1>
-                        @foreach (data_get(__('site'), 'aboutus_content', []) as $content)
+                        {{--  @foreach (data_get(__('site'), 'aboutus_content', []) as $content)
                             <p>{!! $content !!}</p>
-                        @endforeach
+                        @endforeach  --}}
+
+                        <p>@lang('site.aboutus_content_1')</p>
+                        <p>@lang('site.aboutus_content_2')</p>
+                        <p>@lang('site.aboutus_content_3')</p>
+                        <p>@lang('site.aboutus_content_4')</p>
+                        <p>@lang('site.aboutus_content_5')</p>
+                        <img src="@lang('site.img_2')" style="width: 120px; margin-right: 25px;">
+                        <img src="@lang('site.img_1')" style="width: 180px; margin-right: 25px;">
+                        <br><br>
+                        <p>@lang('site.aboutus_content_6')</p>
 
                     </div>
                 </div>
