@@ -1,17 +1,27 @@
 <section class="top-nav-padding homepage-banner">
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
-<!--         
-        <div class="carousel-item active">
-                <div class="responsive-block">
-                    <div class="banner-block responsive-item  d-flex align-items-center">
-                        <video class="leadin-video video-bgv1"  autoplay playsinline>
-                            <source src="/videos/nepal_launch_video.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div> -->
+
+
             <div class="carousel-item active">
+                <div class="responsive-block">
+                <a href="">
+                    <div class="banner-block responsive-item">
+                        @if( App::isLocale('en') )
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/AVITA_5TH_KV.jpg')"></div>
+                        @else
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/AVITA_5TH_KV.jpg')"></div>
+                        @endif
+                        <div class="banner-bg hidden-md-up"
+                             style="background-image: url('/images/banner/AVITA_5TH_KV_vert.jpg')"></div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="carousel-item ">
                 <div class="responsive-block">
                  <a href="{{ route('product.overview', ['essential']) }}"> 
                     <div class="banner-block responsive-item">
@@ -28,41 +38,25 @@
                     <!-- </a> -->
                 </div>
             </div>
-        <div class="carousel-item">
-                <div class="responsive-block">
-                <a href="{{ route('product.overview', ['liber-v']) }}">
-                    <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/avita-liber-v-web-new-v3.jpg')"></div>
-                        @else
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/avita-liber-v-web-new-v3.jpg')"></div>
-                        @endif
-                        <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/avita-liber-v-mob-new-v3.jpg')"></div>
+
+
+            <div class="carousel-item">
+                    <div class="responsive-block">
+                    <a href="{{ route('product.overview', ['liber-v']) }}">
+                        <div class="banner-block responsive-item">
+                            @if( App::isLocale('en') )
+                                <div class="banner-bg hidden-sm-down"
+                                    style="background-image: url('/images/banner/avita-liber-v-web-new-v3.jpg')"></div>
+                            @else
+                                <div class="banner-bg hidden-sm-down"
+                                    style="background-image: url('/images/banner/avita-liber-v-web-new-v3.jpg')"></div>
+                            @endif
+                            <div class="banner-bg hidden-md-up"
+                                style="background-image: url('/images/banner/avita-liber-v-mob-new-v3.jpg')"></div>
+                        </div>
+                        </a>
                     </div>
-                    </a>
                 </div>
-            </div>
-        
-         {{-- <div class="carousel-item">
-                <div class="responsive-block">
-                <a href="{{ route('product.overview', ['essential']) }}">
-                    <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/avita-essential-web-new.jpg')"></div>
-                        @else
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/avita-essential-web-new.jpg')"></div>
-                        @endif
-                        <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/avita-essential-mob-new.jpg')"></div>
-                    </div>
-                    </a>
-                </div>
-            </div> --}}
                  
       
         <div class="carousel-item">
@@ -89,7 +83,7 @@
           <li data-target="#home_banner" data-slide-to="0" class="active"></li>
           <li data-target="#home_banner" data-slide-to="1"></li>
           <li data-target="#home_banner" data-slide-to="2"></li> 
-          {{--  <li data-target="#home_banner" data-slide-to="3"></li>  --}}
+          <li data-target="#home_banner" data-slide-to="3"></li>
 
 
         </ol>
