@@ -12,7 +12,7 @@
                 <?php 
                     $sns_icons = [ 'facebook' => facebookLinkForCountry($country),
                       'instagram' => instagramLinkForCountry($country),
-                      'whatsapp' => whatsappLinkForCountry($country),
+                      
                       'youtube' => youtubeLinkForCountry($country),
 
 
@@ -38,7 +38,7 @@
                 <div class="col-12 col-md-5 py-3 py-md-0 text-left">
                     <div class="d-flex justify-content-between hidden-xs-down">
                         <div class="d-flex flex-column mr-3 ml-md-0 small-lsm-little">
-                            <a class="my-1"><?php echo e(__('messages.products')); ?></a>
+                            <a class="my-1" href="/product/liber-v"><?php echo e(__('messages.products')); ?></a>
                             <a href="<?php echo e(route('news')); ?>" class="my-1"><?php echo e(__('messages.news')); ?></a>
                             <a href="/aboutus" class="my-1"><?php echo e(__('messages.about_us')); ?></a>
                         </div>
@@ -53,7 +53,7 @@
 
                         </div>
                         <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
-                            <a class="my-1"><?php echo e(__('messages.support')); ?></a>
+                            <a class="my-1" href="/support"><?php echo e(__('messages.support')); ?></a>
                             <a href="<?php echo e(route('repair-tnc')); ?>" class="my-1"><?php echo e(__('messages.repair_tnc')); ?></a>
                             <a href="/tnc" class="my-1"><?php echo e(__('messages.terms')); ?></a>
                             <a href="/tnc" class="my-1"><?php echo e(__('messages.privacy')); ?></a>
@@ -74,7 +74,7 @@
 
                             <a href="<?php echo e(route('repair-tnc')); ?>" class="my-1"><?php echo e(__('messages.repair_tnc')); ?></a>
 
-                            <a class="my-1"><?php echo e(__('messages.support')); ?></a>
+                            <a class="my-1" href="<?php echo e(route('support')); ?>">><?php echo e(__('messages.support')); ?></a>
 
                             <a href="<?php echo e(route('repair-tnc')); ?>" class="my-1"><?php echo e(__('messages.repair_tnc')); ?></a>
 

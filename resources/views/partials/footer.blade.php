@@ -12,7 +12,7 @@
                 @php
                     $sns_icons = [ 'facebook' => facebookLinkForCountry($country),
                       'instagram' => instagramLinkForCountry($country),
-                      'whatsapp' => whatsappLinkForCountry($country),
+                      {{--  'whatsapp' => whatsappLinkForCountry($country),  --}}
                       'youtube' => youtubeLinkForCountry($country),
 
 
@@ -38,7 +38,7 @@
                 <div class="col-12 col-md-5 py-3 py-md-0 text-left">
                     <div class="d-flex justify-content-between hidden-xs-down">
                         <div class="d-flex flex-column mr-3 ml-md-0 small-lsm-little">
-                            <a class="my-1">{{ __('messages.products') }}</a>
+                            <a class="my-1" href="/product/liber-v">{{ __('messages.products') }}</a>
                             <a href="{{ route('news') }}" class="my-1">{{ __('messages.news') }}</a>
                             <a href="/aboutus" class="my-1">{{ __('messages.about_us') }}</a>
                         </div>
@@ -47,13 +47,13 @@
                             <a class="my-1">{{ __('messages.where_to_buy') }}</a>
 
 
-                            {{-- <a href="/contact-us" class="my-1">{{ __('messages.contact_avita') }}</a> --}}
+                            {{--  <a href="/contact-us" class="my-1">{{ __('messages.contact_avita') }}</a>  --}}
                             <a class="my-1">{{ __('messages.contact_avita') }}</a>
 
 
                         </div>
                         <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
-                            <a class="my-1">{{ __('messages.support') }}</a>
+                            <a class="my-1" href="/support">{{ __('messages.support') }}</a>
                             <a href="{{ route('repair-tnc') }}" class="my-1">{{ __('messages.repair_tnc') }}</a>
                             <a href="/tnc" class="my-1">{{ __('messages.terms') }}</a>
                             <a href="/tnc" class="my-1">{{ __('messages.privacy') }}</a>
@@ -74,7 +74,7 @@
 
                             <a href="{{ route('repair-tnc') }}" class="my-1">{{ __('messages.repair_tnc') }}</a>
 
-                            <a class="my-1">{{ __('messages.support') }}</a>
+                            <a class="my-1" href="{{ route('support') }}">>{{ __('messages.support') }}</a>
 
                             <a href="{{ route('repair-tnc') }}" class="my-1">{{ __('messages.repair_tnc') }}</a>
 

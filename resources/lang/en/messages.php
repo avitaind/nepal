@@ -11,6 +11,7 @@ return [
     'where_to_buy'    => 'Where to Buy',
     'support'    => 'Service',
     'buy_online'    => 'Buy Online',
+    'buy_offline'    => 'Buy Online',
     'blog'    => 'Blog',
     'sales enquiry'    => 'Sales Enquiry',
     'home_join'    => 'Join the AVITA Community',

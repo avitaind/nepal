@@ -31,6 +31,10 @@
                                       <li class="nav-item">
                                           <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v'])); ?>"><?php echo app('translator')->getFromJson('site.liber-v'); ?></a>
                                        </li>
+
+                                       <li class="nav-item">
+                                        <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', 'pura')); ?>"><?php echo app('translator')->getFromJson('site.pura'); ?> E</a>
+                                    </li>
                                  
                                    
                                        <li class="nav-item">
@@ -72,9 +76,27 @@
                     <a class="nav-link" href="<?php echo e(route('news')); ?>"><?php echo e(__('messages.news')); ?></a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" ><?php echo e(__('messages.where_to_buy')); ?></a>
-                </li>
+                
+
+                <li class="nav-item has-dropdown">
+                    <input id="where_to_buy" type="checkbox" hidden="">
+                      <a class="nav-link"><label for="where_to_buy"><?php echo e(__('messages.where_to_buy')); ?></label></a>
+                  
+                      <div class="dropdown">
+                         <ul class="list-unstyled">
+                            <li class="nav-item has-dropdown">
+                            <a class="nav-link px-md-4 py-2"> <label for="header_offline" class="d-block mb-0">Offline Store [Coming Soon]</label></a>
+                            </li>
+  
+                           <li class="nav-item has-dropdown">
+                              <input id="header_buy_online" type="checkbox" hidden="">
+                                 <a class="nav-link px-md-4 py-2"> <label for="header_buy_online" class="d-block mb-0"><?php echo e(__('messages.buy_online')); ?> [Coming Soon]</label></a>
+                            </li>  
+  
+                         
+                          </ul>
+                      </li>
+
                    <li class="nav-item">
                         <a class="nav-link" href="<?php echo e(route('support')); ?>"><?php echo e(__('messages.support')); ?></a> 
                 </li>

@@ -22,7 +22,7 @@
                     <ul class="nav-product d-flex list-unstyled flex-column justify-content-center text-center flex-sm-row justify-content-sm-end my-2">
         
         
-                        <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'pura') }}">@lang('pura.name')</a></li>
+                        <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'pura') }}">@lang('pura.name') E</a></li>
         
         
                         <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.spec', 'pura') }}">@lang('site.productnav_spec')</a></li>
@@ -45,7 +45,7 @@
                     <nav class="nav nav-pills nav-product-spec justify-content-center">
 
 <!-------------- PURA 14-inch-------------->
-                        <a class="col text-center nav-link active" data-toggle="tab" href="#spec-4" role="tab">
+                        {{--  <a class="col text-center nav-link active" data-toggle="tab" href="#spec-4" role="tab">
                             <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA PURA</div><div class="d-sm-block">(35.56 cm)</div></div>
                             <!--<img class="hidden-sm-down" src="/images/liber/u13/lightpurple.png"> -->
                             <img class="hidden-sm-down" src="/images/pura/Pura_grey.png">
@@ -60,7 +60,24 @@
                                 <li style="background-color: #cf346d" data-image="/images/pura/Pura_sparklingPink.png"></li>
                                 <li style="background-color: #e9a1a8" data-image="/images/pura/Pura_pink.png"></li>
                             </ul>
-                        </a>  
+                        </a>    --}}
+
+                        <a class="col text-center nav-link active" data-toggle="tab" href="#spec-2" role="tab">
+                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA PURA E</div><div class="d-sm-block">(35.56 cm)</div></div>
+                            <!--<img class="hidden-sm-down" src="/images/liber/u13/lightpurple.png"> -->
+                            <img class="hidden-sm-down" src="/images/pura/water_blue.png">
+                            <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">  
+                                <li class="active" style="background-color: #02355b " data-image="/images/pura/water_blue.png"></li>
+                                <li style="background-color: #6f4781" data-image="/images/pura/bubble_purple.png"></li>
+                                <li style="background-color: #ecd94a " data-image="/images/pura/butter_yellow.png"></li>
+                                <li style="background-color: #6f090f " data-image="/images/pura/crayon_red.png"></li>
+                                <li style="background-color: #e8b19d" data-image="/images/pura/fresh_peach.png"></li>
+                                <li style="background-color: #201a16" data-image="/images/pura/ink_blue.png"></li>
+                                <li style="background-color: #00473c " data-image="/images/pura/leaf_green.png"></li>
+                                <li style="background-color: #e2a7af" data-image="/images/pura/pink_flower.png"></li>
+                                {{--  <li style="background-color: #505253 " data-image="/images/pura/shadow_grey.png"></li>  --}}
+                            </ul>
+                        </a>
                         
                     </nav>
                 </div>
@@ -72,73 +89,73 @@
             <div class="tab-content">
              
 <!------------------ PURA 14-inch ------------------------------------->
-                <div class="tab-pane active" id="spec-4" role="tabpanel">
-                    <div class="container">
+                
 
-                        <div class="logo-wrapper d-flex px-3 mt-4">
+                <div class="tab-pane active" id="spec-2" role="tabpanel">
+                    <div class="container">
+                    <div class="logo-wrapper d-flex px-3 mt-4">
                             <div class="offset-md-1">
-                                <img style="width: 200px;" src="{{ asset('images/win10_logo.png') }}" alt="Windows 10 Home">
+                                <img style="width: 200px;" src="https://avita.com/images/win10_logo.png" alt="Windows 10 Home">
                             </div>
                         </div>
-
                         <ul class="list-unstyled spec-list">
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Operating System</div>
-                                <div>Windows 10 Home in S mode</div>
+                                <div>Windows 10 Home </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">CPU</div>
                                 <div>
-                                	Intel® Core™ i3-8145U / Intel® Core™ i5-8265U / AMD A9-9420E / AMD R3-3200U / AMD R5-3500U
+                                    AMD A6-9220e
                                 </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Display</div>
-                                <div>14 TFT (1920 x 1080) </div>
+                                <div>14 HD TFT</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Memory</div>
-                                <div>4GB / 8GB</div>
+                                <div>4GB / 8GB DDR4</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Graphics</div>
-                                <div>Intel® UHD Graphics 620 / AMD Radeon® R5 Graphics / AMD Radeon Vega 3 Graphics / AMD Radeon Vega 8  Graphics</div>
+                                <div>AMD Radeon R4 </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Storage</div>
-                                <div>128GB / 256GB / 512GB SSD SATA M.2</div>
+                                <div>128 GB / 256 GB SSD </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Integrated Camera</div>
-                                <div>1M</div>
+                                <div>VGA </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Audio</div>
-                                <div>0.8W x 2 Speaker, Dual Microphones</div>
+                                <div>0.8W x 2 Speaker, Microphones</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Keyboard</div>
-                                <div> Island Style Re-engineered Keyboard</div>
+                                <div>Island style keyboard</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Wireless</div>
-                                <div>IEEE 802.11 b/g/n/ac</div>
+                                <div>IEEE 802.11 b/g/n</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Bluetooth</div>
-                                <div>Bluetooth v4.1 / v4.2</div>
+                                <div>V4.2</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">I/O Ports</div>
-                                <div>1 x 3.5mm Headphone Jack, 2 x Full Size USB 3.0, 1 x USB 3.0 Type-C (PD 2.0 Charging, Display out), 1 x MicroSD card slot (Max support 256GB), Micro HDMI x 1</div>
+                                <div>Mini HDMI x 1, USB 3.0 TYPE A X 1, USB 2.0 TYPE A X 1, USB 2.0 TYPE C X 1, 3.5mm x 1 Audio Jack, Power Jack </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Dimension</div>
-                                <div>332(W) x 221(H) x 15(D) mm</div>
+                                <div>333(W) x 221(H) x 19(D) mm </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Weight</div>
-                                <div>Starting from 1.21 kg </div>
+                                <div>1.34 kg </div>
                             </li>
                             {{-- <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Adapter</div>
@@ -146,26 +163,28 @@
                             </li> --}}
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery</div>
-                                <div>7.6V 4830mAh</div>
+                                <div>7.4V 3200mAh </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery Life</div>
-                                <div>Up to 10 hours*</div>
+                                <div>Up to 6 hours*</div>
                             </li>
                             
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Colour</div>
-                                <div>Space Grey / Metallic Black / Silky White / Crystal Blue / Glossy Purple / Sugar Red / Shiny Yellow / Pink Diamond / Sparkling Pink</div>
+                                <div>Shadow Grey / Water Blue / Bubble Purple / Crayon Red / Pink Flower / Butter Yellow / Fresh Peach / Leaf Green / Ink Black</div>
                             </li>
                             
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Accessories</div>
-                                 <div>AC Adapter and Power cord</div>  
+                                 <div>AC/DC Adaptor</div>  
                             </li>
-
+    
                         </ul>
                     </div>
-                </div> 
+                </div>
+
+
 
 <!------------------ End PURA 14-inch------------------------------------->
             </div>
