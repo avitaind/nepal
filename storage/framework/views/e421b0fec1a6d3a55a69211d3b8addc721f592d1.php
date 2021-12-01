@@ -17,7 +17,10 @@
             </div>
         </div>
     </section>
-    <!-- <section class="focus-event top-nav-padding">
+
+
+    
+    <section class="focus-event top-nav-padding">
         <div class="container">
             <h3 class="section-title ls-0 my-5"><?php echo app('translator')->getFromJson('site.publish_title'); ?></h3>
             <div class="row">
@@ -27,7 +30,7 @@
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </div>
         </div>
-    </section> -->
+    </section> 
    
 
     <div class="gotop-wrap">
