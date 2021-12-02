@@ -36,7 +36,7 @@
                         <div class="banner-para">
                         <div align="center" class="col-lg-12" >
           <!---     <div class="h2 banner-header">COMING SOON</div> --->
-        <span class="buy-now2"><a href="https://in.nexstmall.com/">Buy Now</a></span>
+        {{--  <span class="buy-now2"><a href="https://in.nexstmall.com/">Buy Now</a></span>  --}}
            </div>
   <!--
                     <br/>
