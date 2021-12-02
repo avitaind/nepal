@@ -210,7 +210,7 @@ The 35.56 cm AVITA PURA E embraces a super slim outfit and weighs from a mere 1.
                         </div>
                 <div class="space60 hidden-sm-down"></div>
                         <div class="banner-para ls-0">
-No more agonising wait for the laptop to power up! The AVITA PURA E is the perfect example of modern computing and could turn on in as soon as 20 seconds, so you can hop on anytime to flex your creativity - in a lightning fast manner. Thanks to the extended battery life that lasts up to 10 hours*, the AVITA PURA E is the perfect companion to have your work and life seamlessly combined.<br />
+No more agonising wait for the laptop to power up! The AVITA PURA E is the perfect example of modern computing and could turn on in as soon as 20 seconds, so you can hop on anytime to flex your creativity - in a lightning fast manner. Thanks to the extended battery life that lasts up to 6 hours*, the AVITA PURA E is the perfect companion to have your work and life seamlessly combined.<br />
 <br />
 The AVITA PURA E is pre-installed with the Windows 10 Home operating system, along with the AMD A6-9220e, up to 4GB / 8GB RAM DDR4, 128GB / 256GB SSD hard disk and various ports to meet your everyday needs.</span>                        </div>
                     </div>
