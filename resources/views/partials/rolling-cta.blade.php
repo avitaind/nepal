@@ -1,4 +1,4 @@
-<div class="product-fix-menu">
+{{--  <div class="product-fix-menu">
 
 		<div class="menu-item">        
 					   
@@ -11,4 +11,4 @@
 			<a href="https://avita-india.com/where-to-buy">Where<br><small>to buy</small></a>
 		</div>
 
-		</div>
+		</div>  --}}

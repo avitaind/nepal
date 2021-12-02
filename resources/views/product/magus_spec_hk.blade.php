@@ -23,7 +23,9 @@
 
 
                 <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'magus-spec') }}">@lang('site.productnav_spec')</a></li>
-                <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.support', 'liber') }}">@lang('site.productnav_support')</a></li>
+                {{--  <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.support', 'liber') }}">@lang('site.productnav_support')</a></li>  --}}
+            <li class="nav-item"><a class="nav-link py-1" href="/support">@lang('site.productnav_support')</a></li>
+
             </ul>
         </div>
     </div>
