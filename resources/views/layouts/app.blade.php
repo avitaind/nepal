@@ -73,7 +73,16 @@
     @if( $ga_code )
 
     <script type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V8P66T4LSY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-V8P66T4LSY');
+</script>
 
 
     <script type="application/ld+json">
