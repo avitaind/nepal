@@ -64,33 +64,8 @@
    <script defer>try{Typekit.load();}catch(e){}</script>
    <script defer type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
 
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-
-    @php
-        $ga_code = googleAnalyticCode( $country );
-    @endphp
-
-    @if( $ga_code )
-
-    <script type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
-
-
-
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org/",
-            "@type": "WebSite",
-            "name": "AVITA NEPAL",
-            "url": "https://www.avita-nepal.com/",
-            "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://www.avita-nepal.com/{search_term_string}",
-            "query-input": "required name=search_term_string"
-        }
-    }
-</script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V8P66T4LSY"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -98,9 +73,7 @@
 
   gtag('config', 'G-V8P66T4LSY');
 </script>
-  @endif
-  
-  
+
 <!-- Google Tag Manager -->
  
  <!---
