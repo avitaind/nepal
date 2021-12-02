@@ -179,9 +179,9 @@ The 35.56 cm AVITA PURA E embraces a super slim outfit and weighs from a mere 1.
                             </div>
 			  <span class="badge-caption text-right">starting<br/>from</span>
 			 <div class="data-card mx-3 text-left">
-                           <span class="badge-value">1.21</span>
-			    <span class="badge-caption">kg </span>
-                <span class="badge-value"> / 1.34</span>
+                           {{--  <span class="badge-value">1.21</span>
+			    <span class="badge-caption">kg </span>  --}}
+                <span class="badge-value"> 1.34</span>
 			    <span class="badge-caption">kg</span>
 				<div class="badge-caption">35.56 cm weight</div>
                             </div>
