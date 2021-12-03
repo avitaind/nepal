@@ -57,8 +57,9 @@
                             <a href="{{ route('repair-tnc') }}" class="my-1">{{ __('messages.repair_tnc') }}</a>
                             <a href="/tnc" class="my-1">{{ __('messages.terms') }}</a>
                             <a href="/tnc" class="my-1">{{ __('messages.privacy') }}</a>
-                            <a href="https://forms.gle/UGBuhasZap8T3NoP8" target="_blank" class="my-1">{{ __('messages.career') }}</a>
-
+                        <!---
+                        <a href="https://forms.gle/UGBuhasZap8T3NoP8" target="_blank" class="my-1">{{ __('messages.career') }}</a>
+                      --->
                         </div>
                     </div>
                     <div class="d-flex hidden-sm-up">
@@ -80,7 +81,7 @@
 
                             <a href="/tnc" class="my-1">{{ __('messages.terms') }}</a>
                             <a href="/tnc" class="my-1">{{ __('messages.privacy') }}</a>
-                            <a href="https://forms.gle/UGBuhasZap8T3NoP8"  target="_blank"  class="my-1">{{ __('messages.career') }}</a>
+                          <!---  <a href="https://forms.gle/UGBuhasZap8T3NoP8"  target="_blank"  class="my-1">{{ __('messages.career') }}</a> --->
 
 
                         </div>
