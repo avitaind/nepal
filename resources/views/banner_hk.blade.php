@@ -39,23 +39,7 @@
                 </div>
             </div>
 
-            <div class="carousel-item ">
-                <div class="responsive-block">
-                 {{--  <a href="{{ route('product.overview', ['essential']) }}">   --}}
-                    <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_web.jpg')"></div>
-                        @else
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_web.jpg')"></div>
-                        @endif
-                        <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_mob.jpg')"></div>
-                    </div>
-                    <!-- </a> -->
-                </div>
-            </div>
+            
 
             <div class="carousel-item ">
                 <div class="responsive-block">
@@ -94,6 +78,23 @@
                     </div>
                 </div>
                  
+                <div class="carousel-item ">
+                    <div class="responsive-block">
+                     {{--  <a href="{{ route('product.overview', ['essential']) }}">   --}}
+                        <div class="banner-block responsive-item">
+                            @if( App::isLocale('en') )
+                                <div class="banner-bg hidden-sm-down"
+                                     style="background-image: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_web.jpg')"></div>
+                            @else
+                                <div class="banner-bg hidden-sm-down"
+                                     style="background-image: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_web.jpg')"></div>
+                            @endif
+                            <div class="banner-bg hidden-md-up"
+                                 style="background-image: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_mob.jpg')"></div>
+                        </div>
+                        <!-- </a> -->
+                    </div>
+                </div>
       
         <div class="carousel-item">
             <div class="responsive-block">
