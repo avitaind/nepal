@@ -7,7 +7,7 @@
                 <span class="d-inline-block navbar-brand hidden-sm-down">
                     <img src="/images/logo.png" alt="AVITA Nepal Official Website"/>
                 </span>
-
+<!--- comment --->
 
                 @php
                     $sns_icons = [ 'facebook' => facebookLinkForCountry($country),
