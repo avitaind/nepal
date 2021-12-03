@@ -20,24 +20,25 @@
                         <div class="col-sm-6">
                             <h2 class="contact_us_title">General Sales Enquiry :</h2>
 
-                            <div class="mb-2">+91-7827845054</div>
+                            <div class="mb-2"></div>
 
                             <div class="mb-2"><b>Email :</b><br>
-                                Insales@nexstgo.com</div>
+                                </div>
 
                             <div><b>@lang('site.contactus_operating') :</b><br>
-                                Monday to Friday : 9:00 am - 6:00 pm</div>
+                                </div>
 
 
                             <div class="mb-2"><b>Address :</b><br>
-                                     Tower A, 405, 4<sup>th</sup> Floor, Copia Business Suites, <br/>Jasola Vihar, New Delhi – 110025</div>
+                                    </div>
                             <h2 class="contact_us_title">Service :</h2>
-                            <div class="mb-2">Toll Free : 1800-103-9635</div>
+                            <div class="mb-2">Toll Free : </div>
 
                         </div>
                         <div class="col-sm-6">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.2536055828955!2d77.28351261508101!3d28.562146382445686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce7ea6bcee9bf%3A0x4fee98c6c6f1c5b1!2sAVITA%20India!5e0!3m2!1sen!2sin!4v1614163274176!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
+<!---
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.2536055828955!2d77.28351261508101!3d28.562146382445686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce7ea6bcee9bf%3A0x4fee98c6c6f1c5b1!2sAVITA%20India!5e0!3m2!1sen!2sin!4v1614163274176!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+--->
                     </div>
                 </div>
 
