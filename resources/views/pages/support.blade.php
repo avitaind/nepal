@@ -185,6 +185,8 @@ Due to the global outbreak of the coronavirus (COVID-19), the service center wil
 
 @section('js')
 
+
+
    <!--
         <script>
         function initMap() {
