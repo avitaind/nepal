@@ -7,7 +7,7 @@
                 <span class="d-inline-block navbar-brand hidden-sm-down">
                     <img src="/images/logo.png" alt="AVITA Nepal Official Website"/>
                 </span>
-
+<!--- comment --->
 
                 <?php 
                     $sns_icons = [ 'facebook' => facebookLinkForCountry($country),
@@ -57,8 +57,9 @@
                             <a href="<?php echo e(route('repair-tnc')); ?>" class="my-1"><?php echo e(__('messages.repair_tnc')); ?></a>
                             <a href="/tnc" class="my-1"><?php echo e(__('messages.terms')); ?></a>
                             <a href="/tnc" class="my-1"><?php echo e(__('messages.privacy')); ?></a>
-                            <a href="https://forms.gle/UGBuhasZap8T3NoP8" target="_blank" class="my-1"><?php echo e(__('messages.career')); ?></a>
-
+                        <!---
+                        <a href="https://forms.gle/UGBuhasZap8T3NoP8" target="_blank" class="my-1"><?php echo e(__('messages.career')); ?></a>
+                      --->
                         </div>
                     </div>
                     <div class="d-flex hidden-sm-up">
@@ -74,13 +75,13 @@
 
                             <a href="<?php echo e(route('repair-tnc')); ?>" class="my-1"><?php echo e(__('messages.repair_tnc')); ?></a>
 
-                            <a class="my-1" href="<?php echo e(route('support')); ?>">><?php echo e(__('messages.support')); ?></a>
+                            <a class="my-1" href="<?php echo e(route('support')); ?>"><?php echo e(__('messages.support')); ?></a>
 
                             <a href="<?php echo e(route('repair-tnc')); ?>" class="my-1"><?php echo e(__('messages.repair_tnc')); ?></a>
 
                             <a href="/tnc" class="my-1"><?php echo e(__('messages.terms')); ?></a>
                             <a href="/tnc" class="my-1"><?php echo e(__('messages.privacy')); ?></a>
-                            <a href="https://forms.gle/UGBuhasZap8T3NoP8"  target="_blank"  class="my-1"><?php echo e(__('messages.career')); ?></a>
+                          <!---  <a href="https://forms.gle/UGBuhasZap8T3NoP8"  target="_blank"  class="my-1"><?php echo e(__('messages.career')); ?></a> --->
 
 
                         </div>

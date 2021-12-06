@@ -75,7 +75,7 @@
 
                             <a href="{{ route('repair-tnc') }}" class="my-1">{{ __('messages.repair_tnc') }}</a>
 
-                            <a class="my-1" href="{{ route('support') }}">>{{ __('messages.support') }}</a>
+                            <a class="my-1" href="{{ route('support') }}">{{ __('messages.support') }}</a>
 
                             <a href="{{ route('repair-tnc') }}" class="my-1">{{ __('messages.repair_tnc') }}</a>
 

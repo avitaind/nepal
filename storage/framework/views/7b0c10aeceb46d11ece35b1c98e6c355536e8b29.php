@@ -89,10 +89,9 @@
            
     </form>
       
-    <p class="download-brochure" ><a href="/images/AVITA-Nepal-Product-Brochure.pdf" target="_blank" download="AVITA-Nepal-Product-Brochure.pdf"><button class="btn btn-primary btn-lg " type="button"><?php echo e(__('messages.brochuer')); ?></button></a></p> 
+    <p class="download-brochure" ><a href="/images/AVITA-Nepal-Product-Brochure.pdf" target="blank" download="AVITA-Nepal-Product-Brochure.pdf"><button class="btn btn-primary btn-lg " type="button"><?php echo e(__('messages.brochuer')); ?></button></a></p> 
 
     </section>
 
     <?php $__env->stopSection(); ?>
-
 <?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

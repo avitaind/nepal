@@ -5,7 +5,7 @@
 
             <div class="carousel-item active">
                 <div class="responsive-block">
-                <a href="https://avita-nepal.com/news/detail/6">
+                <a href="/news/detail/6">
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"

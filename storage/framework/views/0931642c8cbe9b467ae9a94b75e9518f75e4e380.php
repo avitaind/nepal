@@ -106,24 +106,7 @@
     </script>
   --->
   <!-- Facebook Pixel Code -->
-        <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window,document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-
-        fbq('init', '235106801230662');
-        fbq('track', 'PageView');
-        </script>
-        <noscript>
-        <img height="1" width="1"
-        src="https://www.facebook.com/tr?id=235106801230662&ev=PageView
-        &noscript=1"/>
-        </noscript>
+        
         
 <!-- End Facebook Pixel Code -->
 
@@ -159,31 +142,6 @@
     <?php echo $__env->make('partials.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 <?php endif; ?>
 
-
-
-<!-- Facebook API -->
-<!---
-    <script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId      : '538642693536589',
-            xfbml      : true,
-            version    : 'v5.0'
-        });
-        FB.AppEvents.logPageView();
-    };
-
-    (function(d, s, id){
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-
---->
-
 <!-- Google Code for Remarketing Tag -->
 
     <script type="text/javascript">
@@ -192,18 +150,14 @@
     var google_custom_params = window.google_tag_params;
     var google_remarketing_only = true;
     /* ]]> */
-</script>
-<script defer type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+    </script>
+
 
 <script defer type="text/javascript" defer src="<?php echo e(asset('js/vendor.js')); ?>"></script>
 <script defer type="text/javascript"defer src="<?php echo e(asset('js/demo.js')); ?>"></script>
 
 
-    <noscript>
-    <div class="googleads">
-        <img height="1" width="1" alt="AVITA Google Ads" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/830592061/?guid=ON&amp;script=0"/>
-    </div>
-</noscript>
+    
 
 <?php echo $__env->yieldPushContent('js'); ?>
 <?php echo $__env->yieldContent('js'); ?>
