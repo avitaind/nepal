@@ -20,10 +20,10 @@
                         <div class="col-sm-6">
                             <h2 class="contact_us_title">General Sales Enquiry :</h2>
 
-                            <div class="mb-2"></div>
+                            <div class="mb-2">+977-9801919791</div>
 
                             <div class="mb-2"><b>Email :</b><br>
-                                </div>
+                               npsales@nexstgo.com</div>
 
                             <div><b>@lang('site.contactus_operating') :</b><br>
                                 </div>
