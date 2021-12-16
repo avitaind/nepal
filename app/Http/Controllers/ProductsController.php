@@ -27,6 +27,13 @@ class ProductsController extends Controller
     public function mouse(){
         return view('mouse');
     }
+    public function mouse_(){
+        return view('mouse_');
+    }
+
+    public function sleeve(){
+        return view('product.sleeve');
+    }
 
     public function getproducts(){
         return view('product.overview');
