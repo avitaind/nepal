@@ -74,7 +74,8 @@
 
                                         <li class="nav-item">
 
-                                            {{-- <a class="nav-link px-md-4 py-2" href="/accessories/mouse">@lang('site.mouse')</a> --}}
+                                            <a class="nav-link px-md-4 py-2" >@lang('site.mouse') [Coming Soon]</a>
+                                            <a class="nav-link px-md-4 py-2" >@lang('site.sleeve') [Coming Soon]</a>
                                         </li>
 
                                     </ul>

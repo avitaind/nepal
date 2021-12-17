@@ -61,7 +61,8 @@
 
                                         <li class="nav-item">
 
-                                            
+                                            <a class="nav-link px-md-4 py-2" ><?php echo app('translator')->getFromJson('site.mouse'); ?> [Coming Soon]</a>
+                                            <a class="nav-link px-md-4 py-2" ><?php echo app('translator')->getFromJson('site.sleeve'); ?> [Coming Soon]</a>
                                         </li>
 
                                     </ul>
