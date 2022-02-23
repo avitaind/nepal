@@ -55,11 +55,11 @@ class CampusController extends Controller
         {
             $email = $request->input('email');
             $name = $request->input('name');
-            $message->from('np.support@nexstgo.com','Campus Ambassador Program');
+            $message->from('avita.nepal@gmail.com','Campus Ambassador Program');
             $message->to($email, $name)->subject('Campus Ambassador Program');
             $message->to('avitacampusambassador@gmail.com', 'AVITA Campus Ambassador Program');
             $message->replyTo('avitacampusambassador@gmail.com', 'AVITA Campus Ambassador Program');
-            $message->replyTo('np.support@nexstgo.com', 'AVITA Nepal');
+            $message->replyTo('avita.nepal@gmail.com', 'AVITA Nepal');
         });
      
         return redirect()->back()->with('message', 'Thank you for your submission. You shall receive a confirmation mail shortly!');
