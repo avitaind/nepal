@@ -208,9 +208,10 @@
     <link type="text/css" rel="stylesheet" href="{{ asset('css/custom.css') }}" />
     <style>
         .h1 {
-            font-size: 1.5rem;
+            font-size: 22px;
             text-align: justify;
             text-align-last: center;
+            color: #000;
         }
 
         #example1 {
