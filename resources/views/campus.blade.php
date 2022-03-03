@@ -8,9 +8,9 @@
             <div class="responsive-block">
                 <div class="banner-block responsive-item admiror-banner">
                     <div class="banner-bg hidden-sm-down"
-                        style="background-image: url('/images/banner/campus_web_banner.png')"></div>
+                        style="background-image: url('/images/banner/campus_web_banner.jpg')"></div>
                     <div class="banner-bg hidden-md-up"
-                        style="background-image: url('/images/banner/campus_mobile_banner.png')"></div>
+                        style="background-image: url('/images/banner/campus_mob_banner.jpg')"></div>
                     <div class="banner-info">
                         <!--  <div class="an-scroll-wrap">
                               <div class="an-scroll">
