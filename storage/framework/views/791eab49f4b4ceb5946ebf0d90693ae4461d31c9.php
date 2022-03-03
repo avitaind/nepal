@@ -12,11 +12,11 @@
                         style="background-image: url('/images/banner/campus_mob_banner.jpg')"></div>
                     <div class="banner-info">
                         <!--  <div class="an-scroll-wrap">
-                              <div class="an-scroll">
-                                  <span></span>
-                              </div>
-                              </div>
-                              -->
+                                  <div class="an-scroll">
+                                      <span></span>
+                                  </div>
+                                  </div>
+                                  -->
                     </div>
                 </div>
             </div>
@@ -27,29 +27,29 @@
                 <section>
                     <div class="row my-4" style="" id="example1">
                         <div class="col-md-12">
-                            <h1 class="my-4 h1" style="">We have marked our presence across various regions
+                            <p class="MsoListParagraph"
+                                style="text-align: justify;">
+                                We have marked our presence across various regions
                                 adding numerous
                                 ambassadors and executing various events successfully and now it’s time to flourish
                                 ourselves in the
                                 land of the Himalayas. This is your chance to get recognized working with the trendiest
                                 laptop brand
                                 known for its vibrant products.
-                            </h1>
-                            <h1 class="my-4 h1" style="">Ambassadors will be working on the brand's social media
-                                outreach, and
-                                organize various promotional activities on campus in lieu of amazing rewards and incentives
-                                from
-                                AVITA.
-                            </h1>
+                            </p>
+                            <p class=""
+                                style="text-align: justify;">
+                                Ambassadors will be working on the brand's social media outreach, and organize various promotional activities on campus in lieu of amazing rewards and incentives from AVITA.
+                            </p>
                             <div class="row">
                                 <div class="col-md-6">
                                     <h1 class="mt-1 h1">It’s time to unveil your talents and plunge into a world of
                                         colourful
                                         opportunities.
                                     </h1>
-                                    <br />
                                     <p class="MsoListParagraph"
-                                        style="margin-left: 20.4pt; mso-add-space: auto; mso-para-margin-left: 0gd;">The
+                                        style=" text-align: justify;">
+                                        The
                                         Campus
                                         Ambassador Program by AVITA is an initiative to motivate the Indian Youth to
                                         showcase
@@ -57,7 +57,7 @@
                                         skills and uniqueness like the AVITA Liber Series of Personalized Laptops.
                                     </p>
                                     <p class="MsoListParagraph"
-                                        style="margin-left: 20.4pt; mso-add-space: auto; mso-para-margin-left: 0gd;">Get
+                                        style="text-align: justify;">Get
                                         ready
                                         to become
                                         the Face, Voice, and Evangelist of your Campus and build the most vibrant community
@@ -68,6 +68,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <h1 class="h1">Who are we looking for?</h1>
+                                    <br>
                                     <p class="MsoListParagraph"
                                         style="margin-left: 20.4pt; mso-add-space: auto; mso-para-margin-left: 0gd;">We are
                                         looking for
@@ -209,7 +210,7 @@
     <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/custom.css')); ?>" />
     <style>
         .h1 {
-            font-size: 22px;
+            font-size: 18px;
             text-align: justify;
             text-align-last: center;
             color: #000;
