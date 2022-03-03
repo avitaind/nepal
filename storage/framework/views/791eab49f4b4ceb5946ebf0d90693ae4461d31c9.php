@@ -67,7 +67,7 @@
                                     </p>
                                 </div>
                                 <div class="col-md-6">
-                                    <h1 class="h1">Who are we looking for?</h1>
+                                    <h1 class="h1 ml-4">Who are we looking for?</h1>
                                     <br>
                                     <p class="MsoListParagraph"
                                         style="margin-left: 20.4pt; mso-add-space: auto; mso-para-margin-left: 0gd;">We are
@@ -212,7 +212,7 @@
         .h1 {
             font-size: 18px;
             text-align: justify;
-            text-align-last: center;
+            /* text-align-last: center; */
             color: #000;
         }
 
