@@ -20,23 +20,6 @@
                 </div>
             </div>
 
-            <div class="carousel-item ">
-                <div class="responsive-block">
-                <a href="/news/detail/6">
-                    <div class="banner-block responsive-item">
-                        <?php if( App::isLocale('en') ): ?>
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/AVITA_5TH_KV.jpg')"></div>
-                        <?php else: ?>
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/AVITA_5TH_KV.jpg')"></div>
-                        <?php endif; ?>
-                        <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/AVITA_5TH_KV_vert.jpg')"></div>
-                    </div>
-                    </a>
-                </div>
-            </div>
 
             <div class="carousel-item ">
                 <div class="responsive-block">
@@ -140,7 +123,6 @@
           <li data-target="#home_banner" data-slide-to="3"></li>
           <li data-target="#home_banner" data-slide-to="4"></li>
           <li data-target="#home_banner" data-slide-to="5"></li>
-          <li data-target="#home_banner" data-slide-to="6"></li>
 
         
 
